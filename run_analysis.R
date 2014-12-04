@@ -1,4 +1,5 @@
-setwd("./Coursera/UCI HAR Dataset")
+###
+#setwd("./Coursera/UCI HAR Dataset")
 ###
 #Reads x data, train and test
 X_train <- read.table("./train/X_train.txt", quote="\"")
@@ -34,10 +35,9 @@ colnames(x)[1]<-"activity"
 mx<-NULL
 for(i in 1:length(activity_labels[,2])){
   xx<-mapply(mean,x[x[,1]==activity_labels[i,2],][,2:length(names(x))])
-  xx<-c(as.character(activity_labels[i,2]),xx)
   mx<-rbind(mx,xx)
 }
 mx<-as.data.frame(mx)
-colnames(mx)[1]<-"activity"
+mx<-cbind(activity=activity_labels[,2] ,mx)
 ##
 write.table(mx,"goodluck.txt", row.name=FALSE)
