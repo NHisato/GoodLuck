@@ -30,39 +30,39 @@ x[,grep(c("mean\\(|std\\("),features[,2])] will extract the measurements on the 
 
   Selected means ans stds are
   
-tBodyAcc-mean()-X, Y, Z           tBodyAcc-std()-X, Y, Z 
+tBodyAcc-mean()-X, Y, Z             tBodyAcc-std()-X, Y, Z 
 
-tGravityAcc-mean()-X ,Y, Z        tGravityAcc-std()-X, Y, Z  
+tGravityAcc-mean()-X ,Y, Z          tGravityAcc-std()-X, Y, Z  
 
-tBodyAccJerk-mean()-X, Y, Z       tBodyAccJerk-std()-X, Y, Z
+tBodyAccJerk-mean()-X, Y, Z         tBodyAccJerk-std()-X, Y, Z
 
-tBodyGyro-mean()-X, Y, Z          tBodyGyro-std()-X, Y, Z
+tBodyGyro-mean()-X, Y, Z            tBodyGyro-std()-X, Y, Z
 
-tBodyGyroJerk-mean()-X, Y, Z      tBodyGyroJerk-std()-X, Y, Z
+tBodyGyroJerk-mean()-X, Y, Z        tBodyGyroJerk-std()-X, Y, Z
 
-tBodyAccMag-mean()                tBodyAccMag-std() 
+tBodyAccMag-mean()                  tBodyAccMag-std() 
 
-tGravityAccMag-mean()             tGravityAccMag-std()
+tGravityAccMag-mean()               tGravityAccMag-std()
 
-tBodyAccJerkMag-mean()            tBodyAccJerkMag-std()
+tBodyAccJerkMag-mean()              tBodyAccJerkMag-std()
 
-tBodyGyroMag-mean()               tBodyGyroMag-std()
+tBodyGyroMag-mean()                 tBodyGyroMag-std()
 
-tBodyGyroJerkMag-mean()           tBodyGyroJerkMag-std()
+tBodyGyroJerkMag-mean()             tBodyGyroJerkMag-std()
 
-fBodyAcc-mean()-X, Y, Z           fBodyAcc-std()-X, Y, Z
+fBodyAcc-mean()-X, Y, Z             fBodyAcc-std()-X, Y, Z
 
-fBodyAccJerk-mean()-X, Y, Z       fBodyAccJerk-std()-X, Y, Z
+fBodyAccJerk-mean()-X, Y, Z         fBodyAccJerk-std()-X, Y, Z
 
-fBodyGyro-mean()-X, Y,Z           fBodyGyro-std()-X, Y, Z
+fBodyGyro-mean()-X, Y,Z             fBodyGyro-std()-X, Y, Z
 
-fBodyAccMag-mean()                fBodyAccMag-std()
+fBodyAccMag-mean()                  fBodyAccMag-std()
 
-fBodyBodyAccJerkMag-mean()        fBodyBodyAccJerkMag-std()
+fBodyBodyAccJerkMag-mean()          fBodyBodyAccJerkMag-std()
 
-fBodyBodyGyroMag-mean()           fBodyBodyGyroMag-std()
+fBodyBodyGyroMag-mean()             fBodyBodyGyroMag-std()
 
-fBodyBodyGyroJerkMag-mean()       fBodyBodyGyroJerkMag-std()
+fBodyBodyGyroJerkMag-mean()         fBodyBodyGyroJerkMag-std()
 
 
   So you can get 6*66 mean values if you define .../UCI HAR Dataset folder as a working directory and run 'run_analysis.R' script.
