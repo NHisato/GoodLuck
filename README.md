@@ -28,7 +28,7 @@ x[,grep(c("mean\\(|std\\("),features[,2])] will extract the measurements on the 
 6 LAYING.
 
 
-  Selected means ans sds are
+  Selected means ans stds are
   
 tBodyAcc-mean()-X, Y, Z           tBodyAcc-std()-X, Y, Z 
 
