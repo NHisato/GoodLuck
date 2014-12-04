@@ -1,13 +1,13 @@
 GoodLuck
 ========
 
-Getting and Cleaning Data course project \\n
+Getting and Cleaning Data course project \
 
-  This R script 'run_analysis.R' will read unziped files from
+  This R script 'run_analysis.R' will read unziped files from\
 
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip \
 
-and return goodruck.txt which includes mean values for each activity of the measurements on the mean and standard deviation for each measurement.
+and return goodruck.txt which includes mean values for each activity of the measurements on the mean and standard deviation for each measurement.\
   x contains measured data about 561 features as listed in features.text file. 
 First we read x_train and x_test files and use colnames() command to set 561 features.
 x[,grep(c("mean\\(|std\\("),features[,2])] will extract the measurements on the mean and standard deviation.
