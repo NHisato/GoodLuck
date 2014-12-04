@@ -1,7 +1,7 @@
 GoodLuck
 ========
 
-Getting and Cleaning Data course project
+Getting and Cleaning Data course project \\n
 
   This R script 'run_analysis.R' will read unziped files from
 
